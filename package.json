@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html --public-url ./ --out-dir ./docs",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mobx": "^5.15.4 || ^4.15.4",
+    "mobx-react": "^6.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^10.0.0",
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^8.0.5",
+    "tailwindcss": "^1.8.10",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  }
+}
